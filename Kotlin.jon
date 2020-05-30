@@ -1,64 +1,5 @@
 {
-  "main": {
-    "content": [
-      {
-        "url": "/docs/reference/",
-        "title": "Learn"
-      },
-      {
-        "url": "/community/",
-        "title": "Community"
-      },
-      {
-        "url": "https://play.kotlinlang.org",
-        "title": "Play"
-      }
-    ]
-  },
-  "subnav": {
-    "content": [
-      {
-        "url": "/docs/",
-        "content": [
-          {
-            "url": "/docs/reference/",
-            "title": "Language Guide"
-          },
-          {
-            "url": "/docs/tutorials/",
-            "title": "Tutorials"
-          },
-          {
-            "url": "/docs/books.md",
-            "title": "Books"
-          }
-        ]
-      },
-      {
-        "url": "/community/",
-        "content": [
-          {
-            "url": "/community/",
-            "urlPattern": "^/community/$",
-            "title": "Community Overview"
-          },
-          {
-            "url": "/user-groups/user-group-list.md",
-            "urlPattern": "/user-groups*",
-            "title": "User Groups"
-          },
-          {
-            "url": "/community/kotlin-nights.md",
-            "title": "Kotlin Nights"
-          },
-          {
-            "url": "/community/talks.md",
-            "title": "Talks"
-          }
-        ]
-      }
-    ]
-  },
+  
   "reference": {
     "content": [
       {
@@ -787,46 +728,6 @@
           "wrap_code_snippets": true,
           "github_edit_page": "README.md"
         }
-      }
-    ]
-  },
-  "foundation": {
-    "content": [
-      {
-        "url": "/foundation/kotlin-foundation.md",
-        "title": "Kotlin Foundation"
-      },
-      {
-        "url": "/foundation/language-committee-guidelines.md",
-        "title": "Language Committee Guidelines"
-      },
-      {
-        "url": "/foundation/submitting-incompatible-changes.md",
-        "title": "Submitting Incompatible Changes"
-      },
-      {
-        "url": "/foundation/guidelines.md",
-        "title": "Kotlin Brand Usage Guidelines"
-      },
-      {
-        "url": "/foundation/faq.md",
-        "title": "FAQ"
-      }
-    ]
-  },
-  "groups": {
-    "content": [
-      {
-        "url": "/user-groups/user-group-list.md",
-        "title": "Kotlin User Groups List"
-      },
-      {
-        "url": "/user-groups/support.md",
-        "title": "Support and Guidelines"
-      },
-      {
-        "url": "/user-groups/branding.md",
-        "title": "Branding"
       }
     ]
   }
