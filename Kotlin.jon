@@ -6,11 +6,11 @@
         "description": "Overview of Kotlin",
         "content": [
           {
-            "url": "https://raw.githubusercontent.com/JetBrains/kotlin-web-site/master/pageshttps://raw.githubusercontent.com/JetBrains/kotlin-web-site/master/pages/docs/reference/server-overview.md",
+            "url": "https://raw.githubusercontent.com/JetBrains/kotlin-web-site/master/pages/docs/reference/server-overview.md",
             "title": "Kotlin for Server Side"
           },
           {
-            "url": "https://raw.githubusercontent.com/JetBrains/kotlin-web-site/master/pageshttps://raw.githubusercontent.com/JetBrains/kotlin-web-site/master/pages/docs/reference/android-overview.md",
+            "url": "https://raw.githubusercontent.com/JetBrains/kotlin-web-site/master/pages/docs/reference/android-overview.md",
             "title": "Kotlin for Android"
           },
           {
