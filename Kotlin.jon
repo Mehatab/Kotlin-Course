@@ -6,31 +6,31 @@
         "description": "Overview of Kotlin",
         "content": [
           {
-            "url": "docs/reference/server-overview.md",
+            "url": "docs/reference/server-overview.json",
             "title": "Kotlin for Server Side"
           },
           {
-            "url": "docs/reference/android-overview.md",
+            "url": "docs/reference/android-overview.json",
             "title": "Kotlin for Android"
           },
           {
-            "url": "docs/reference/js-overview.md",
+            "url": "docs/reference/js-overview.json",
             "title": "Kotlin for JavaScript"
           },
           {
-            "url": "docs/reference/native-overview.md",
+            "url": "docs/reference/native-overview.json",
             "title": "Kotlin for Native"
           },
           {
-            "url": "docs/reference/data-science-overview.md",
+            "url": "docs/reference/data-science-overview.json",
             "title": "Kotlin for Data Science"
           },
           {
-            "url": "docs/reference/coroutines-overview.md",
+            "url": "docs/reference/coroutines-overview.json",
             "title": "Coroutines"
           },
           {
-            "url": "docs/reference/multiplatform.md",
+            "url": "docs/reference/multiplatform.json",
             "title": "Multiplatform"
           }
         ]
@@ -40,15 +40,15 @@
         "description": "What's new in Kotlin releases",
         "content": [
           {
-            "url": "docs/reference/whatsnew13.md",
+            "url": "docs/reference/whatsnew13.json",
             "title": "What's New in 1.3"
           },
           {
-            "url": "docs/reference/whatsnew12.md",
+            "url": "docs/reference/whatsnew12.json",
             "title": "What's New in 1.2"
           },
           {
-            "url": "docs/reference/whatsnew11.md",
+            "url": "docs/reference/whatsnew11.json",
             "title": "What's New in 1.1"
           }
         ]
@@ -58,15 +58,15 @@
         "description": "Get familiar with the basics of Kotlin including operations, coding conventions and idioms.",
         "content": [
           {
-            "url": "docs/reference/basic-syntax.md",
+            "url": "docs/reference/basic-syntax.json",
             "title": "Basic Syntax"
           },
           {
-            "url": "docs/reference/idioms.md",
+            "url": "docs/reference/idioms.json",
             "title": "Idioms"
           },
           {
-            "url": "docs/reference/coding-conventions.md",
+            "url": "docs/reference/coding-conventions.json",
             "title": "Coding Conventions"
           }
         ]
@@ -76,19 +76,19 @@
         "description": "The Basics",
         "content": [
           {
-            "url": "docs/reference/basic-types.md",
+            "url": "docs/reference/basic-types.json",
             "title": "Basic Types"
           },
           {
-            "url": "docs/reference/packages.md",
+            "url": "docs/reference/packages.json",
             "title": "Packages and Imports"
           },
           {
-            "url": "docs/reference/control-flow.md",
+            "url": "docs/reference/control-flow.json",
             "title": "Control Flow"
           },
           {
-            "url": "docs/reference/returns.md",
+            "url": "docs/reference/returns.json",
             "title": "Returns and Jumps"
           }
         ]
@@ -98,63 +98,63 @@
         "description": "All about objects",
         "content": [
           {
-            "url": "docs/reference/classes.md",
+            "url": "docs/reference/classes.json",
             "title": "Classes and Inheritance"
           },
           {
-            "url": "docs/reference/properties.md",
+            "url": "docs/reference/properties.json",
             "title": "Properties and Fields"
           },
           {
-            "url": "docs/reference/interfaces.md",
+            "url": "docs/reference/interfaces.json",
             "title": "Interfaces"
           },
           {
-            "url": "docs/reference/visibility-modifiers.md",
+            "url": "docs/reference/visibility-modifiers.json",
             "title": "Visibility Modifiers"
           },
           {
-            "url": "docs/reference/extensions.md",
+            "url": "docs/reference/extensions.json",
             "title": "Extensions"
           },
           {
-            "url": "docs/reference/data-classes.md",
+            "url": "docs/reference/data-classes.json",
             "title": "Data Classes"
           },
           {
-            "url": "docs/reference/sealed-classes.md",
+            "url": "docs/reference/sealed-classes.json",
             "title": "Sealed Classes"
           },
           {
-            "url": "docs/reference/generics.md",
+            "url": "docs/reference/generics.json",
             "title": "Generics"
           },
           {
-            "url": "docs/reference/nested-classes.md",
+            "url": "docs/reference/nested-classes.json",
             "title": "Nested Classes"
           },
           {
-            "url": "docs/reference/enum-classes.md",
+            "url": "docs/reference/enum-classes.json",
             "title": "Enum Classes"
           },
           {
-            "url": "docs/reference/object-declarations.md",
+            "url": "docs/reference/object-declarations.json",
             "title": "Objects"
           },
           {
-            "url": "docs/reference/type-aliases.md",
+            "url": "docs/reference/type-aliases.json",
             "title": "Type Aliases"
           },
           {
-            "url": "docs/reference/inline-classes.md",
+            "url": "docs/reference/inline-classes.json",
             "title": "Inline Classes"
           },
           {
-            "url": "docs/reference/delegation.md",
+            "url": "docs/reference/delegation.json",
             "title": "Delegation"
           },
           {
-            "url": "docs/reference/delegated-properties.md",
+            "url": "docs/reference/delegated-properties.json",
             "title": "Delegated Properties"
           }
         ]
@@ -164,15 +164,15 @@
         "description": "All about functions",
         "content": [
           {
-            "url": "docs/reference/functions.md",
+            "url": "docs/reference/functions.json",
             "title": "Functions"
           },
           {
-            "url": "docs/reference/lambdas.md",
+            "url": "docs/reference/lambdas.json",
             "title": "Lambdas"
           },
           {
-            "url": "docs/reference/inline-functions.md",
+            "url": "docs/reference/inline-functions.json",
             "title": "Inline Functions"
           }
         ]
@@ -182,75 +182,75 @@
         "description": "Kotlin stlib collections",
         "content": [
           {
-            "url": "docs/reference/collections-overview.md",
+            "url": "docs/reference/collections-overview.json",
             "title": "Collections Overview"
           },
           {
-            "url": "docs/reference/constructing-collections.md",
+            "url": "docs/reference/constructing-collections.json",
             "title": "Constructing Collections"
           },
           {
-            "url": "docs/reference/iterators.md",
+            "url": "docs/reference/iterators.json",
             "title": "Iterators"
           },
           {
-            "url": "docs/reference/ranges.md",
+            "url": "docs/reference/ranges.json",
             "title": "Ranges and Progressions"
           },
           {
-            "url": "docs/reference/sequences.md",
+            "url": "docs/reference/sequences.json",
             "title": "Sequences"
           },
           {
-            "url": "docs/reference/collection-operations.md",
+            "url": "docs/reference/collection-operations.json",
             "title": "Operations Overview"
           },
           {
-            "url": "docs/reference/collection-transformations.md",
+            "url": "docs/reference/collection-transformations.json",
             "title": "Transformations"
           },
           {
-            "url": "docs/reference/collection-filtering.md",
+            "url": "docs/reference/collection-filtering.json",
             "title": "Filtering"
           },
           {
-            "url": "docs/reference/collection-plus-minus.md",
+            "url": "docs/reference/collection-plus-minus.json",
             "title": "Plus and Minus Operators"
           },
           {
-            "url": "docs/reference/collection-grouping.md",
+            "url": "docs/reference/collection-grouping.json",
             "title": "Grouping"
           },
           {
-            "url": "docs/reference/collection-parts.md",
+            "url": "docs/reference/collection-parts.json",
             "title": "Retrieving Collection Parts"
           },
           {
-            "url": "docs/reference/collection-elements.md",
+            "url": "docs/reference/collection-elements.json",
             "title": "Retrieving Single Elements"
           },
           {
-            "url": "docs/reference/collection-ordering.md",
+            "url": "docs/reference/collection-ordering.json",
             "title": "Ordering"
           },
           {
-            "url": "docs/reference/collection-aggregate.md",
+            "url": "docs/reference/collection-aggregate.json",
             "title": "Aggregate Operations"
           },
           {
-            "url": "docs/reference/collection-write.md",
+            "url": "docs/reference/collection-write.json",
             "title": "Collection Write Operations"
           },
           {
-            "url": "docs/reference/list-operations.md",
+            "url": "docs/reference/list-operations.json",
             "title": "List Specific Operations"
           },
           {
-            "url": "docs/reference/set-operations.md",
+            "url": "docs/reference/set-operations.json",
             "title": "Set Specific Operations"
           },
           {
-            "url": "docs/reference/map-operations.md",
+            "url": "docs/reference/map-operations.json",
             "title": "Map Specific Operations"
           }
         ]
@@ -271,15 +271,15 @@
         "description": "Reusing code across JVM, JS, and Native",
         "content": [
           {
-            "url": "docs/reference/platform-specific-declarations.md",
+            "url": "docs/reference/platform-specific-declarations.json",
             "title": "Platform-Specific Declarations"
           },
           {
-            "url": "docs/reference/building-mpp-with-gradle.md",
+            "url": "docs/reference/building-mpp-with-gradle.json",
             "title": "Building with Gradle"
           },
           {
-            "url": "docs/reference/mpp-dsl-reference.md",
+            "url": "docs/reference/mpp-dsl-reference.json",
             "title": "Multiplatform Gradle DSL Reference"
           }
         ]
@@ -289,51 +289,51 @@
         "description": "Various bits and bobs",
         "content": [
           {
-            "url": "docs/reference/multi-declarations.md",
+            "url": "docs/reference/multi-declarations.json",
             "title": "Destructuring Declarations"
           },
           {
-            "url": "docs/reference/typecasts.md",
+            "url": "docs/reference/typecasts.json",
             "title": "Type Checks and Casts"
           },
           {
-            "url": "docs/reference/this-expressions.md",
+            "url": "docs/reference/this-expressions.json",
             "title": "This expressions"
           },
           {
-            "url": "docs/reference/equality.md",
+            "url": "docs/reference/equality.json",
             "title": "Equality"
           },
           {
-            "url": "docs/reference/operator-overloading.md",
+            "url": "docs/reference/operator-overloading.json",
             "title": "Operator overloading"
           },
           {
-            "url": "docs/reference/null-safety.md",
+            "url": "docs/reference/null-safety.json",
             "title": "Null Safety"
           },
           {
-            "url": "docs/reference/exceptions.md",
+            "url": "docs/reference/exceptions.json",
             "title": "Exceptions"
           },
           {
-            "url": "docs/reference/annotations.md",
+            "url": "docs/reference/annotations.json",
             "title": "Annotations"
           },
           {
-            "url": "docs/reference/reflection.md",
+            "url": "docs/reference/reflection.json",
             "title": "Reflection"
           },
           {
-            "url": "docs/reference/scope-functions.md",
+            "url": "docs/reference/scope-functions.json",
             "title": "Scope Functions"
           },
           {
-            "url": "docs/reference/type-safe-builders.md",
+            "url": "docs/reference/type-safe-builders.json",
             "title": "Type-Safe Builders"
           },
           {
-            "url": "docs/reference/opt-in-requirements.md",
+            "url": "docs/reference/opt-in-requirements.json",
             "title": "Opt-in Requirements"
           }
         ]
@@ -342,11 +342,11 @@
         "title": "Core Libraries",
         "content": [
           {
-            "url": "/api/latest/jvm/stdlib/index.md",
+            "url": "/api/latest/jvm/stdlib/index.json",
             "title": "Standard Library"
           },
           {
-            "url": "/api/latest/kotlin.test/index.md",
+            "url": "/api/latest/kotlin.test/index.json",
             "title": "kotlin.test"
           }
         ]
@@ -356,15 +356,15 @@
         "description": "Grammar and other information",
         "content": [
           {
-            "url": "docs/reference/keyword-reference.md",
+            "url": "docs/reference/keyword-reference.json",
             "title": "Keywords and operators"
           },
           {
-            "url": "docs/reference/grammar.md",
+            "url": "docs/reference/grammar.json",
             "title": "Grammar"
           },
           {
-            "url": "docs/reference/code-style-migration-guide.md",
+            "url": "docs/reference/code-style-migration-guide.json",
             "title": "Coding style conventions"
           }
         ]
@@ -374,11 +374,11 @@
         "description": "What you need to know about interoperability with Java.",
         "content": [
           {
-            "url": "docs/reference/java-interop.md",
+            "url": "docs/reference/java-interop.json",
             "title": "Calling Java from Kotlin"
           },
           {
-            "url": "docs/reference/java-to-kotlin-interop.md",
+            "url": "docs/reference/java-to-kotlin-interop.json",
             "title": "Calling Kotlin from Java"
           }
         ]
@@ -388,31 +388,31 @@
         "description": "Using Kotlin with JavaScript",
         "content": [
           {
-            "url": "docs/reference/js-project-setup.md",
+            "url": "docs/reference/js-project-setup.json",
             "title": "Setting Up a Project"
           },
           {
-            "url": "docs/reference/dynamic-type.md",
+            "url": "docs/reference/dynamic-type.json",
             "title": "Dynamic Type"
           },
           {
-            "url": "docs/reference/js-interop.md",
+            "url": "docs/reference/js-interop.json",
             "title": "Calling JavaScript from Kotlin"
           },
           {
-            "url": "docs/reference/js-to-kotlin-interop.md",
+            "url": "docs/reference/js-to-kotlin-interop.json",
             "title": "Calling Kotlin from JavaScript"
           },
           {
-            "url": "docs/reference/js-modules.md",
+            "url": "docs/reference/js-modules.json",
             "title": "JavaScript Modules"
           },
           {
-            "url": "docs/reference/js-reflection.md",
+            "url": "docs/reference/js-reflection.json",
             "title": "JavaScript Reflection"
           },
           {
-            "url": "docs/reference/javascript-dce.md",
+            "url": "docs/reference/javascript-dce.json",
             "title": "JavaScript DCE"
           }
         ]
@@ -433,35 +433,35 @@
         "description": null,
         "content": [
           {
-            "url": "docs/reference/using-gradle.md",
+            "url": "docs/reference/using-gradle.json",
             "title": "Gradle"
           },
           {
-            "url": "docs/reference/using-maven.md",
+            "url": "docs/reference/using-maven.json",
             "title": "Maven"
           },
           {
-            "url": "docs/reference/using-ant.md",
+            "url": "docs/reference/using-ant.json",
             "title": "Ant"
           },
           {
-            "url": "docs/reference/compiler-reference.md",
+            "url": "docs/reference/compiler-reference.json",
             "title": "Compiler options"
           },
           {
-            "url": "docs/reference/compiler-plugins.md",
+            "url": "docs/reference/compiler-plugins.json",
             "title": "Compiler plugins"
           },
           {
-            "url": "docs/reference/kapt.md",
+            "url": "docs/reference/kapt.json",
             "title": "Kapt"
           },
           {
-            "url": "docs/reference/kotlin-doc.md",
+            "url": "docs/reference/kotlin-doc.json",
             "title": "Dokka"
           },
           {
-            "url": "docs/reference/kotlin-osgi.md",
+            "url": "docs/reference/kotlin-osgi.json",
             "title": "OSGi"
           }
         ]
@@ -471,15 +471,15 @@
         "description": "Langauge evolution and compatibility",
         "content": [
           {
-            "url": "docs/reference/evolution/kotlin-evolution.md",
+            "url": "docs/reference/evolution/kotlin-evolution.json",
             "title": "Kotlin Evolution"
           },
           {
-            "url": "docs/reference/evolution/components-stability.md",
+            "url": "docs/reference/evolution/components-stability.json",
             "title": "Stability of different components"
           },
           {
-            "url": "docs/reference/compatibility-guide-13.md",
+            "url": "docs/reference/compatibility-guide-13.json",
             "title": "Compatibility Guide for Kotlin 1.3"
           }
         ]
@@ -489,11 +489,11 @@
         "description": "Every question you could possibly think of, might be answered.",
         "content": [
           {
-            "url": "docs/reference/faq.md",
+            "url": "docs/reference/faq.json",
             "title": "FAQ"
           },
           {
-            "url": "docs/reference/comparison-to-java.md",
+            "url": "docs/reference/comparison-to-java.json",
             "title": "Comparison to Java"
           }
         ]
@@ -506,31 +506,31 @@
         "title": "Getting Started",
         "content": [
           {
-            "url": "docs/tutorials/getting-started.md",
+            "url": "docs/tutorials/getting-started.json",
             "title": "Getting Started with IntelliJ IDEA"
           },
           {
-            "url": "docs/tutorials/getting-started-eclipse.md",
+            "url": "docs/tutorials/getting-started-eclipse.json",
             "title": "Getting Started with Eclipse"
           },
           {
-            "url": "docs/tutorials/command-line.md",
+            "url": "docs/tutorials/command-line.json",
             "title": "Working with the Command Line Compiler"
           },
           {
-            "url": "docs/tutorials/quick-run.md",
+            "url": "docs/tutorials/quick-run.json",
             "title": "Running Code Snippets"
           },
           {
-            "url": "docs/tutorials/build-tools.md",
+            "url": "docs/tutorials/build-tools.json",
             "title": "Working with Build Tools"
           },
           {
-            "url": "docs/tutorials/koans.md",
+            "url": "docs/tutorials/koans.json",
             "title": "Koans"
           },
           {
-            "url": "docs/tutorials/competitive-programming.md",
+            "url": "docs/tutorials/competitive-programming.json",
             "title": "Competitive Programming"
           }
         ]
@@ -539,7 +539,7 @@
         "title": "Java Interop",
         "content": [
           {
-            "url": "docs/tutorials/mixing-java-kotlin-intellij.md",
+            "url": "docs/tutorials/mixing-java-kotlin-intellij.json",
             "title": "Mixing Java and Kotlin in one project"
           }
         ]
@@ -548,43 +548,43 @@
         "title": "JavaScript",
         "content": [
           {
-            "url": "docs/tutorials/javascript/setting-up.md",
+            "url": "docs/tutorials/javascript/setting-up.json",
             "title": "Setting up a project"
           },
           {
-            "url": "docs/tutorials/javascript/running-kotlin-js.md",
+            "url": "docs/tutorials/javascript/running-kotlin-js.json",
             "title": "Running Kotlin/JS"
           },
           {
-            "url": "docs/tutorials/javascript/dev-server-continuous-compilation.md",
+            "url": "docs/tutorials/javascript/dev-server-continuous-compilation.json",
             "title": "Development Server and Continuous Compilation"
           },
           {
-            "url": "docs/tutorials/javascript/using-packages-from-npm.md",
+            "url": "docs/tutorials/javascript/using-packages-from-npm.json",
             "title": "Using packages from npm"
           },
           {
-            "url": "docs/tutorials/javascript/debugging-kotlin-in-browser.md",
+            "url": "docs/tutorials/javascript/debugging-kotlin-in-browser.json",
             "title": "Debugging Kotlin in the browser"
           },
           {
-            "url": "docs/tutorials/javascript/running-tests.md",
+            "url": "docs/tutorials/javascript/running-tests.json",
             "title": "Running tests"
           },
           {
-            "url": "docs/tutorials/javascript/browser-api-dom.md",
+            "url": "docs/tutorials/javascript/browser-api-dom.json",
             "title": "Browser API and the DOM"
           },
           {
-            "url": "docs/tutorials/javascript/typesafe-md-dsl.md",
+            "url": "docs/tutorials/javascript/typesafe-md-dsl.json",
             "title": "Typesafe md DSL"
           },
           {
-            "url": "docs/tutorials/javascript/working-with-modules/working-with-modules.md",
+            "url": "docs/tutorials/javascript/working-with-modules/working-with-modules.json",
             "title": "Working with Kotlin and JavaScript Modules"
           },
           {
-            "url": "docs/tutorials/javascript/react-and-kotlin-js.md",
+            "url": "docs/tutorials/javascript/react-and-kotlin-js.json",
             "title": "Building Web Applications with React and Kotlin/JS"
           }
         ]
@@ -593,15 +593,15 @@
         "title": "Multiplatform Projects",
         "content": [
           {
-            "url": "docs/tutorials/mpp/intro-to-kotlin-mpp.md",
+            "url": "docs/tutorials/mpp/intro-to-kotlin-mpp.json",
             "title": "Intro to MPP"
           },
           {
-            "url": "docs/tutorials/native/mpp-ios-android.md",
+            "url": "docs/tutorials/native/mpp-ios-android.json",
             "title": "iOS and Android"
           },
           {
-            "url": "docs/tutorials/mpp/multiplatform-library.md",
+            "url": "docs/tutorials/mpp/multiplatform-library.json",
             "title": "Multiplatform Library"
           }
         ]
@@ -610,55 +610,55 @@
         "title": "Native",
         "content": [
           {
-            "url": "docs/tutorials/native/using-command-line-compiler.md",
+            "url": "docs/tutorials/native/using-command-line-compiler.json",
             "title": "Hello Kotlin/Native using Command Line Compiler"
           },
           {
-            "url": "docs/tutorials/native/using-gradle.md",
+            "url": "docs/tutorials/native/using-gradle.json",
             "title": "Hello Kotlin/Native using Gradle"
           },
           {
-            "url": "docs/tutorials/native/using-intellij-idea.md",
+            "url": "docs/tutorials/native/using-intellij-idea.json",
             "title": "Hello Kotlin/Native using IntelliJ IDEA"
           },
           {
-            "url": "docs/tutorials/native/intro-to-kotlin-native.md",
+            "url": "docs/tutorials/native/intro-to-kotlin-native.json",
             "title": "Creating an HTTP Client in Kotlin/Native"
           },
           {
-            "url": "docs/tutorials/native/mapping-primitive-data-types-from-c.md",
+            "url": "docs/tutorials/native/mapping-primitive-data-types-from-c.json",
             "title": "Mapping Primitive Data Types from C"
           },
           {
-            "url": "docs/tutorials/native/mapping-struct-union-types-from-c.md",
+            "url": "docs/tutorials/native/mapping-struct-union-types-from-c.json",
             "title": "Mapping Struct and Union Types from C"
           },
           {
-            "url": "docs/tutorials/native/mapping-function-pointers-from-c.md",
+            "url": "docs/tutorials/native/mapping-function-pointers-from-c.json",
             "title": "Mapping Function Pointers from C"
           },
           {
-            "url": "docs/tutorials/native/mapping-strings-from-c.md",
+            "url": "docs/tutorials/native/mapping-strings-from-c.json",
             "title": "Mapping Strings from C"
           },
           {
-            "url": "docs/tutorials/native/dynamic-libraries.md",
+            "url": "docs/tutorials/native/dynamic-libraries.json",
             "title": "Kotlin/Native as a Dynamic Library"
           },
           {
-            "url": "docs/tutorials/native/apple-framework.md",
+            "url": "docs/tutorials/native/apple-framework.json",
             "title": "Kotlin/Native as an Apple Framework"
           },
           {
-            "url": "docs/tutorials/mpp/multiplatform-library.md",
+            "url": "docs/tutorials/mpp/multiplatform-library.json",
             "title": "Publishing a Kotlin/Native Library"
           },
           {
-            "url": "docs/tutorials/native/curl.md",
+            "url": "docs/tutorials/native/curl.json",
             "title": "Using C Interop and libcurl for an App"
           },
           {
-            "url": "docs/tutorials/native/mpp-ios-android.md",
+            "url": "docs/tutorials/native/mpp-ios-android.json",
             "title": "Building iOS and Android App"
           }
         ]
@@ -667,15 +667,15 @@
         "title": "Coroutines",
         "content": [
           {
-            "url": "docs/tutorials/coroutines/async-programming.md",
+            "url": "docs/tutorials/coroutines/async-programming.json",
             "title": "Asynchronous Programming"
           },
           {
-            "url": "docs/tutorials/coroutines/coroutines-basic-jvm.md",
+            "url": "docs/tutorials/coroutines/coroutines-basic-jvm.json",
             "title": "Intro to Kotlin Coroutines on the JVM"
           },
           {
-            "url": "docs/tutorials/coroutines/intro-to-coroutines-and-channels.md",
+            "url": "docs/tutorials/coroutines/intro-to-coroutines-and-channels.json",
             "title": "Intro to Coroutines and Channels"
           }
         ]
@@ -684,11 +684,11 @@
         "title": "Web Development",
         "content": [
           {
-            "url": "docs/tutorials/httpservlets.md",
+            "url": "docs/tutorials/httpservlets.json",
             "title": "Creating Web Applications with Http Servlets"
           },
           {
-            "url": "docs/tutorials/spring-boot-restful.md",
+            "url": "docs/tutorials/spring-boot-restful.json",
             "title": "Creating a RESTful Web Service with Spring Boot"
           }
         ]
@@ -697,7 +697,7 @@
         "title": "Tools",
         "content": [
           {
-            "url": "docs/tutorials/kotlin-and-ci.md",
+            "url": "docs/tutorials/kotlin-and-ci.json",
             "title": "Setting up Kotlin on TeamCity"
           }
         ]
@@ -706,11 +706,11 @@
         "title": "Education",
         "content": [
           {
-            "url": "docs/tutorials/edu-tools-learner.md",
+            "url": "docs/tutorials/edu-tools-learner.json",
             "title": "Learning Kotlin with EduTools plugin"
           },
           {
-            "url": "docs/tutorials/edu-tools-educator.md",
+            "url": "docs/tutorials/edu-tools-educator.json",
             "title": "Teaching Kotlin with EduTools plugin"
           }
         ]
@@ -725,7 +725,7 @@
           "repo": "https://github.com/Khan/kotlin-for-python-developers",
           "type": "tutorial",
           "wrap_code_snippets": true,
-          "github_edit_page": "README.md"
+          "github_edit_page": "README.json"
         }
       }
     ]
