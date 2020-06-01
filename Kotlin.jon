@@ -258,13 +258,48 @@
       {
         "title": "Coroutines",
         "description": "Kotlin Coroutines Library",
-        "external": {
-          "path": "kotlinx.coroutines/docs",
-          "nav": "_nav.yml",
-          "base": "docs/reference/coroutines",
-          "repo": "https://github.com/kotlin/kotlinx.coroutines",
-          "branch": "master"
-        }
+        "content":[
+          {
+            "url": "docs/reference/coroutines/coroutines-guide.json",
+            "title": "Coroutines Guide"
+          },
+          {
+            "url": "docs/reference/coroutines/basics.json",
+            "title": "Basics"
+          },                  
+          {
+            "url": "docs/reference/coroutines/cancellation-and-timeouts.json",
+            "title": "Cancellation and Timeouts"
+          },                                 
+          {
+            "url": "docs/reference/coroutines/composing-suspending-functions.json",
+            "title": "Composing Suspending Functions"
+          },                                 
+          {
+            "url": "docs/reference/coroutines/coroutine-context-and-dispatchers.json",
+            "title": "Coroutine Context and Dispatchers"
+          },                                 
+          {
+            "url": "docs/reference/coroutines/flow.json",
+            "title": "Asynchronous Flow"
+          },                                
+          {
+            "url": "docs/reference/coroutines/channels.json",
+            "title": "Channels"
+          },                                
+          {
+            "url": "docs/reference/coroutines/exception-handling.json",
+            "title": "Exception Handling and Supervision"
+          },                                
+          {
+            "url": "docs/reference/coroutines/shared-mutable-state-and-concurrency.json",
+            "title": "Shared Mutable State and Concurrency"
+          },                                
+          {
+            "url": "docs/reference/coroutines/select-expression.json",
+            "title": "Select Expression (experimental)"
+          }       
+        ]
       },
       {
         "title": "Multiplatform Programming",
