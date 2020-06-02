@@ -4,7 +4,7 @@
       {
         "title": "Overview",
         "description": "Overview of Kotlin",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/server-overview.json",
             "title": "Kotlin for Server Side"
@@ -38,7 +38,7 @@
       {
         "title": "What's New",
         "description": "What's new in Kotlin releases",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/whatsnew13.json",
             "title": "What's New in 1.3"
@@ -56,7 +56,7 @@
       {
         "title": "Getting Started",
         "description": "Get familiar with the basics of Kotlin including operations, coding conventions and idioms.",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/basic-syntax.json",
             "title": "Basic Syntax"
@@ -74,7 +74,7 @@
       {
         "title": "Basics",
         "description": "The Basics",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/basic-types.json",
             "title": "Basic Types"
@@ -96,7 +96,7 @@
       {
         "title": "Classes and Objects",
         "description": "All about objects",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/classes.json",
             "title": "Classes and Inheritance"
@@ -162,7 +162,7 @@
       {
         "title": "Functions and Lambdas",
         "description": "All about functions",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/functions.json",
             "title": "Functions"
@@ -180,7 +180,7 @@
       {
         "title": "Collections",
         "description": "Kotlin stlib collections",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/collections-overview.json",
             "title": "Collections Overview"
@@ -258,7 +258,7 @@
       {
         "title": "Coroutines",
         "description": "Kotlin Coroutines Library",
-        "content":[
+        "lessons":[
           {
             "url": "docs/reference/coroutines/coroutines-guide.json",
             "title": "Coroutines Guide"
@@ -304,7 +304,7 @@
       {
         "title": "Multiplatform Programming",
         "description": "Reusing code across JVM, JS, and Native",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/platform-specific-declarations.json",
             "title": "Platform-Specific Declarations"
@@ -322,7 +322,7 @@
       {
         "title": "More Language Constructs",
         "description": "Various bits and bobs",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/multi-declarations.json",
             "title": "Destructuring Declarations"
@@ -375,7 +375,7 @@
       },
       {
         "title": "Core Libraries",
-        "content": [
+        "lessons": [
           {
             "url": "/api/latest/jvm/stdlib/index.json",
             "title": "Standard Library"
@@ -389,7 +389,7 @@
       {
         "title": "Reference",
         "description": "Grammar and other information",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/keyword-reference.json",
             "title": "Keywords and operators"
@@ -407,7 +407,7 @@
       {
         "title": "Java Interop",
         "description": "What you need to know about interoperability with Java.",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/java-interop.json",
             "title": "Calling Java from Kotlin"
@@ -421,7 +421,7 @@
       {
         "title": "JavaScript",
         "description": "Using Kotlin with JavaScript",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/js-project-setup.json",
             "title": "Setting Up a Project"
@@ -466,7 +466,7 @@
       {
         "title": "Tools",
         "description": null,
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/using-gradle.json",
             "title": "Gradle"
@@ -504,7 +504,7 @@
       {
         "title": "Evolution",
         "description": "Langauge evolution and compatibility",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/evolution/kotlin-evolution.json",
             "title": "Kotlin Evolution"
@@ -522,7 +522,7 @@
       {
         "title": "FAQ",
         "description": "Every question you could possibly think of, might be answered.",
-        "content": [
+        "lessons": [
           {
             "url": "docs/reference/faq.json",
             "title": "FAQ"
@@ -539,7 +539,7 @@
     "content": [
       {
         "title": "Getting Started",
-        "content": [
+        "lessons": [
           {
             "url": "docs/tutorials/getting-started.json",
             "title": "Getting Started with IntelliJ IDEA"
@@ -572,7 +572,7 @@
       },
       {
         "title": "Java Interop",
-        "content": [
+        "lessons": [
           {
             "url": "docs/tutorials/mixing-java-kotlin-intellij.json",
             "title": "Mixing Java and Kotlin in one project"
@@ -581,7 +581,7 @@
       },
       {
         "title": "JavaScript",
-        "content": [
+        "lessons": [
           {
             "url": "docs/tutorials/javascript/setting-up.json",
             "title": "Setting up a project"
@@ -626,7 +626,7 @@
       },
       {
         "title": "Multiplatform Projects",
-        "content": [
+        "lessons": [
           {
             "url": "docs/tutorials/mpp/intro-to-kotlin-mpp.json",
             "title": "Intro to MPP"
@@ -643,7 +643,7 @@
       },
       {
         "title": "Native",
-        "content": [
+        "lessons": [
           {
             "url": "docs/tutorials/native/using-command-line-compiler.json",
             "title": "Hello Kotlin/Native using Command Line Compiler"
@@ -700,7 +700,7 @@
       },
       {
         "title": "Coroutines",
-        "content": [
+        "lessons": [
           {
             "url": "docs/tutorials/coroutines/async-programming.json",
             "title": "Asynchronous Programming"
@@ -717,7 +717,7 @@
       },
       {
         "title": "Web Development",
-        "content": [
+        "lessons": [
           {
             "url": "docs/tutorials/httpservlets.json",
             "title": "Creating Web Applications with Http Servlets"
@@ -730,7 +730,7 @@
       },
       {
         "title": "Tools",
-        "content": [
+        "lessons": [
           {
             "url": "docs/tutorials/kotlin-and-ci.json",
             "title": "Setting up Kotlin on TeamCity"
@@ -739,7 +739,7 @@
       },
       {
         "title": "Education",
-        "content": [
+        "lessons": [
           {
             "url": "docs/tutorials/edu-tools-learner.json",
             "title": "Learning Kotlin with EduTools plugin"
