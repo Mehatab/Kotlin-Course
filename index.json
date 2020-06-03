@@ -1,5 +1,6 @@
-{
-  "reference": {
+[
+  {
+    "name": "reference",
     "content": [
       {
         "title": "Overview",
@@ -240,7 +241,7 @@
       {
         "title": "Coroutines",
         "description": "Kotlin Coroutines Library",
-        "lessons":[
+        "lessons": [
           {
             "url": "docs/reference/coroutines/coroutines-guide.md",
             "title": "Coroutines Guide"
@@ -248,39 +249,39 @@
           {
             "url": "docs/reference/coroutines/basics.md",
             "title": "Basics"
-          },                  
+          },
           {
             "url": "docs/reference/coroutines/cancellation-and-timeouts.md",
             "title": "Cancellation and Timeouts"
-          },                                 
+          },
           {
             "url": "docs/reference/coroutines/composing-suspending-functions.md",
             "title": "Composing Suspending Functions"
-          },                                 
+          },
           {
             "url": "docs/reference/coroutines/coroutine-context-and-dispatchers.md",
             "title": "Coroutine Context and Dispatchers"
-          },                                 
+          },
           {
             "url": "docs/reference/coroutines/flow.md",
             "title": "Asynchronous Flow"
-          },                                
+          },
           {
             "url": "docs/reference/coroutines/channels.md",
             "title": "Channels"
-          },                                
+          },
           {
             "url": "docs/reference/coroutines/exception-handling.md",
             "title": "Exception Handling and Supervision"
-          },                                
+          },
           {
             "url": "docs/reference/coroutines/shared-mutable-state-and-concurrency.md",
             "title": "Shared Mutable State and Concurrency"
-          },                                
+          },
           {
             "url": "docs/reference/coroutines/select-expression.md",
             "title": "Select Expression (experimental)"
-          }       
+          }
         ]
       },
       {
@@ -531,7 +532,8 @@
       }
     ]
   },
-  "tutorials": {
+  {
+    "name": "tutorials",
     "content": [
       {
         "title": "Getting Started",
@@ -761,4 +763,4 @@
       }
     ]
   }
-}
+]
