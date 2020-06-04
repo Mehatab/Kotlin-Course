@@ -1,6 +1,6 @@
 [
   {
-    "name": "reference",
+    "name": "Reference",
     "content": [
       {
         "title": "Overview",
@@ -533,7 +533,7 @@
     ]
   },
   {
-    "name": "tutorials",
+    "name": "Tutorials",
     "content": [
       {
         "title": "Getting Started",
