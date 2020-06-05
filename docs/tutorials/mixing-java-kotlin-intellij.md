@@ -1,15 +1,3 @@
----
-type: tutorial
-layout: tutorial
-title: "Mixing Java and Kotlin in one project"
-description: "This tutorial walks us through the process of using Java and Kotlin in a single IntelliJ IDEA project."
-authors: Hadi Hariri
-showAuthorInfo: false
-date: 2019-04-11
-related:
-    - getting-started.md
----
-
 We'll be using IntelliJ IDEA (Ultimate or Community edition). To learn how to start a new Kotlin project in IntelliJ IDEA, 
 see the [Getting Started with IntellJ IDEA](getting-started.html) tutorial. If you are using build tools, please see the corresponding
 entry under [Build Tools](build-tools.html). 

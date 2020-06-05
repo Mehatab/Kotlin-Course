@@ -1,13 +1,3 @@
----
-type: tutorial
-layout: tutorial
-title: "Creating a Kotlin JavaScript library with the Command Line Compiler"
-description: "This tutorial walks us through creating a Kotlin JavaScript library using the command line compiler."
-authors:
-showAuthorInfo: false
-related:
-    - getting-started.md
----
 
 >__Warning__: this tutorial is outdated for Kotlin {{ site.data.releases.latest.version }}.
 >We strongly recommend using Gradle for Kotlin/JS projects. For instructions on creating 

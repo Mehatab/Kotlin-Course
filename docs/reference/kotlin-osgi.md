@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Tools"
-title: "Kotlin and OSGi"
----
-
 # Kotlin and OSGi
 
 To enable Kotlin OSGi support you need to include `kotlin-osgi-bundle` instead of regular Kotlin libraries.

@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Syntax"
-title: "Object Expressions, Object Declarations and Companion Objects"
----
-
 # Object Expressions and Declarations
 
 Sometimes we need to create an object of a slight modification of some class, without explicitly declaring a new subclass for it.

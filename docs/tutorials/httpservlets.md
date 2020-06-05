@@ -1,12 +1,4 @@
----
-type: tutorial
-layout: tutorial
-title:  "Creating Web Applications with Http Servlets"
-description: "This tutorial walks us through the process of creating a simple controller using HttpServlet to display Hello World."
-authors: Hadi Hariri
-showAuthorInfo: false
-source: servlet-web-applications
----
+
 Java EE Http servlets can be used from Kotlin much like any other Java library or framework. We'll see
 how to make a simple controller that returns "Hello, World!".
 

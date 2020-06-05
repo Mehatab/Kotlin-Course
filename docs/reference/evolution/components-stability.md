@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Compatibility"
-title: "Stability of Different Components"
----
-
 # Stability of Different Components
 
 There can be different modes of stability depending of how quickly a component is evolving:

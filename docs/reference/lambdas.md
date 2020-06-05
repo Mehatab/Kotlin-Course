@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Syntax"
-title: "Higher-Order Functions and Lambdas"
----
-
 # Higher-Order Functions and Lambdas
 
 Kotlin functions are [*first-class*](https://en.wikipedia.org/wiki/First-class_function), which means that they can 

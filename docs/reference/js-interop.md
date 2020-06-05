@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "JavaScript"
-title: "Calling JavaScript from Kotlin"
----
-
 # Calling JavaScript from Kotlin
 
 Kotlin was designed for easy interoperation with Java platform. It sees Java classes as Kotlin classes, and

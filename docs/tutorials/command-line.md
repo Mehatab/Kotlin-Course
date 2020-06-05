@@ -1,14 +1,4 @@
----
-type: tutorial
-layout: tutorial
-title: "Working with the Command Line Compiler"
-description: "This tutorial walks us through creating a Hello World application using the command line compiler."
-authors: Hadi Hariri
-showAuthorInfo: false
-related:
-    - getting-started.md
----
-### Downloading the compiler
+# Downloading the compiler
 
 Every release ships with a standalone version of the compiler. We can download the latest version (`kotlin-compiler-{{ site.data.releases.latest.version }}.zip`) from [GitHub Releases]({{ site.data.releases.latest.url }}).
 

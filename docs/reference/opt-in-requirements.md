@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Syntax"
-title: "Opt-in Requirements"
----
-
 # Opt-in Requirements
 
 > The opt-in requirement annotations `@RequiresOptIn` and `@OptIn` are *experimental*. 

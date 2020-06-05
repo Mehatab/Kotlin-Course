@@ -1,11 +1,3 @@
----
-type: tutorial
-layout: tutorial
-title: "Teaching Kotlin with EduTools plugin"
-description: "Here we provide basic information about teaching Kotlin with the EduTools plugin."
-authors: Tatiana Vasilyeva
-showAuthorInfo: false
----
 
 With the [EduTools plugin](https://plugins.jetbrains.com/plugin/10081-edutools), available both in 
 [Android Studio](https://developer.android.com/studio) and [IntelliJ IDEA](https://www.jetbrains.com/idea/), you can teach Kotlin through code practicing tasks.

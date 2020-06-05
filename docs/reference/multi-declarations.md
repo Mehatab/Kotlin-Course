@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Other"
-title: "Destructuring Declarations"
----
-
 # Destructuring Declarations
 
 Sometimes it is convenient to _destructure_ an object into a number of variables, for example:

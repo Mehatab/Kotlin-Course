@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Introduction"
-title: "Kotlin/Native"
----
-
 # **Kotlin/Native for Native**
 
 ![Compiler Diagram]({{ url_for('asset', path='images/landing/native/native_overview.png')}})

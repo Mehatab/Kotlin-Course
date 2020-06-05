@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Classes and Objects"
-title: "Inline classes"
----
-
 # Inline classes
 
 > Inline classes are available only since Kotlin 1.3 and currently are *experimental*. See details [below](#experimental-status-of-inline-classes)

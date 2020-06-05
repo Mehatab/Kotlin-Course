@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Other"
-title: "Multiplatform Projects"
----
-
 # Multiplatform Programming
 
 > Multiplatform projects are an experimental feature in Kotlin 1.2 and 1.3. All of the language

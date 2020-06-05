@@ -1,13 +1,3 @@
----
-type: tutorial
-layout: tutorial
-title:  "Getting Started with Kotlin and JavaScript with Maven"
-description: "A look at how to use Maven to target JavaScript."
-authors: Hadi Hariri 
-date: 2016-11-04
-showAuthorInfo: false
----
-
 >__Warning__: this tutorial is outdated for Kotlin {{ site.data.releases.latest.version }}.
 >We strongly recommend using Gradle for Kotlin/JS projects. For instructions on creating 
 >Kotlin/JS projects with Gradle, see [Setting up a Kotlin/JS project](../setting-up.html)

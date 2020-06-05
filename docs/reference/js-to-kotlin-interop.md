@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "JavaScript"
-title: "Calling Kotlin from JavaScript"
----
-
 # Calling Kotlin from JavaScript
 
 Kotlin compiler generates normal JavaScript classes, functions and properties you can freely use from

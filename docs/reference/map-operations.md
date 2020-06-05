@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Collections"
-title: "Map Specific Operations"
----
-
 # Map Specific Operations
 
 In [maps](collections-overview.html#map), types of both keys and values are user-defined.

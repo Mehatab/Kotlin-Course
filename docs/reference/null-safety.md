@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Syntax"
-title: "Null Safety"
----
-
 # Null Safety
 
 ## Nullable types and Non-Null Types

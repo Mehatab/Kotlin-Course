@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Syntax"
-title: "Nested and Inner Classes"
----
-
 # Nested and Inner Classes
 
 Classes can be nested in other classes:

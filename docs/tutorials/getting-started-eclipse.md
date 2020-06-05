@@ -1,14 +1,4 @@
----
-type: tutorial
-layout: tutorial
-title:  "Getting Started with Eclipse IDE"
-description: "This tutorials walks us through creating a simple Hello World application using Eclipse IDE"
-authors: Nikolay Krasko
-date: 2019-04-24
-showAuthorInfo: false
----
-
-## Setting up the environment
+# Setting up the environment
 First of all, you need the Eclipse IDE installed on your system.
 You can download its latest version from [download page](https://www.eclipse.org/downloads/). The "Eclipse IDE for Java Developers" bundle is recommended.
 

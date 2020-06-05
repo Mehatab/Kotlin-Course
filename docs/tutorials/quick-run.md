@@ -1,16 +1,3 @@
----
-type: tutorial
-layout: tutorial
-title: "Running Code Snippets "
-description: "This tutorial shows the ways to write and run Kotlin code snippets in a lightweight manner without creating
-entire applications."
-authors: Pavel Semyonov
-date: 2019-11-13
-showAuthorInfo: false
-related:
-    - command-line.md
----
-
 There may be times when you need to quickly write and execute code outside of a project or application. 
 This may be useful, for example, when learning Kotlin or evaluating expressions.
 Let's have a look at three handy ways we can use to run Kotlin code quickly:

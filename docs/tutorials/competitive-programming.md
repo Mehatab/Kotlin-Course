@@ -1,12 +1,3 @@
----
-type: tutorial
-layout: tutorial
-title:  "Competitive Programming"
-authors: Roman Elizarov
-showAuthorInfo: true
-description: "This tutorial explains the basic usage of Kotlin for competitive programming."
----
-
 ## Prerequisites
 
 This tutorial is designed both for competitive programmers that did not use Kotlin before and 

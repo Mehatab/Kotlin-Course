@@ -1,9 +1,3 @@
----
-type: doc
-layout: reference
-title: "Building Multiplatform Projects with Gradle"
----
-
 # Kotlin Multiplatform Gradle DSL Reference
 
 > Multiplatform projects are an experimental feature in Kotlin 1.2 and 1.3. All of the language

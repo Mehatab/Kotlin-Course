@@ -1,11 +1,4 @@
----
-type: doc
-layout: reference
-category: "Other"
-title: "Platform-Specific Declarations"
----
-
-## Platform-Specific Declarations
+# Platform-Specific Declarations
 
 > Multiplatform projects are an experimental feature in Kotlin 1.2 and 1.3. All of the language
 and tooling features described in this document are subject to change in future Kotlin versions.

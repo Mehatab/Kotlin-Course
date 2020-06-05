@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Tools"
-title: "Keywords and Operators"
----
-
 # Keywords and Operators
 
 ## Hard Keywords

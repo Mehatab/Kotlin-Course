@@ -1,10 +1,3 @@
----
-type: doc
-layout: reference
-category: "Syntax"
-title: "Reflection"
----
-
 # Reflection
 
 Reflection is a set of language and library features that allows for introspecting the structure of your own program at runtime.
