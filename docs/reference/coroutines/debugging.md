@@ -1,18 +1,4 @@
-**Table of contents**
-
-<!--- TOC -->
-
-* [Debugging coroutines](#debugging-coroutines)
-* [Debug mode](#debug-mode)
-* [Stacktrace recovery](#stacktrace-recovery)
-  * [Stacktrace recovery machinery](#stacktrace-recovery-machinery)
-* [Debug agent](#debug-agent)
-  * [Debug agent and Android](#debug-agent-and-android)
-* [Android optimization](#android-optimization)
-
-<!--- END -->
-
-## Debugging coroutines
+# Debugging coroutines
 
 Debugging asynchronous programs is challenging, because multiple concurrent coroutines are typically working at the same time.
 To help with that, `kotlinx.coroutines` comes with additional features for debugging: debug mode, stacktrace recovery 
@@ -76,17 +62,6 @@ Unfortunately, Android runtime does not support Instrument API necessary for `ko
 
 Nevertheless, it will be possible to support debug agent on Android as soon as [GradleAspectJ-Android](https://github.com/Archinamon/android-gradle-aspectj)  will support android-gradle 3.3 
 
-<!---
-Make an exception googlable
-java.lang.NoClassDefFoundError: Failed resolution of: Ljava/lang/management/ManagementFactory;
-        at kotlinx.coroutines.repackaged.net.bytebuddy.agent.ByteBuddyAgent$ProcessProvider$ForCurrentVm$ForLegacyVm.resolve(ByteBuddyAgent.java:1055)
-        at kotlinx.coroutines.repackaged.net.bytebuddy.agent.ByteBuddyAgent$ProcessProvider$ForCurrentVm.resolve(ByteBuddyAgent.java:1038)
-        at kotlinx.coroutines.repackaged.net.bytebuddy.agent.ByteBuddyAgent.install(ByteBuddyAgent.java:374)
-        at kotlinx.coroutines.repackaged.net.bytebuddy.agent.ByteBuddyAgent.install(ByteBuddyAgent.java:342)
-        at kotlinx.coroutines.repackaged.net.bytebuddy.agent.ByteBuddyAgent.install(ByteBuddyAgent.java:328)
-        at kotlinx.coroutines.debug.internal.DebugProbesImpl.install(DebugProbesImpl.kt:39)
-        at kotlinx.coroutines.debug.DebugProbes.install(DebugProbes.kt:49)
--->
 
 ## Android optimization
 
@@ -96,11 +71,3 @@ In optimized (release) builds with R8 version 1.6.0 or later both
 are permanently turned off. 
 For more details see ["Optimization" section for Android](../ui/kotlinx-coroutines-android/README.md#optimization). 
 
-<!--- MODULE kotlinx-coroutines-core -->
-<!--- INDEX kotlinx.coroutines -->
-[DEBUG_PROPERTY_NAME]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-d-e-b-u-g_-p-r-o-p-e-r-t-y_-n-a-m-e.html
-[CoroutineName]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-name/index.html
-[CopyableThrowable]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-copyable-throwable/index.html
-[CopyableThrowable.createCopy]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-copyable-throwable/create-copy.html
-<!--- MODULE kotlinx-coroutines-debug -->
-<!--- END -->

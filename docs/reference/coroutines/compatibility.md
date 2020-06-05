@@ -1,21 +1,4 @@
-<!--- TOC -->
-
-* [Compatibility](#compatibility)
-* [Public API types](#public-api-types)
-  * [Experimental API](#experimental-api)
-  * [Flow preview API](#flow-preview-api)
-  * [Obsolete API](#obsolete-api)
-  * [Internal API](#internal-api)
-  * [Stable API](#stable-api)
-  * [Deprecation cycle](#deprecation-cycle)
-* [Using annotated API](#using-annotated-api)
-  * [Programmatically](#programmatically)
-  * [Gradle](#gradle)
-  * [Maven](#maven)
-
-<!--- END -->
-
-## Compatibility
+# Compatibility
 This document describes the compatibility policy of `kotlinx.coroutines` library since version 1.0.0 and semantics of compatibility-specific annotations.
 
 
@@ -112,14 +95,3 @@ For the Maven project, a warning can be disabled by passing a compiler flag in y
     </configuration>
 </plugin>
 ```
-
-
-<!--- MODULE kotlinx-coroutines-core -->
-<!--- INDEX kotlinx.coroutines.flow -->
-[Flow]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/index.html
-<!--- INDEX kotlinx.coroutines -->
-[ExperimentalCoroutinesApi]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-experimental-coroutines-api/index.html
-[FlowPreview]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-flow-preview/index.html
-[ObsoleteCoroutinesApi]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-obsolete-coroutines-api/index.html
-[InternalCoroutinesApi]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-internal-coroutines-api/index.html
-<!--- END -->

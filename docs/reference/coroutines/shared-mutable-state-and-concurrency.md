@@ -1,21 +1,4 @@
-<!--- TEST_NAME SharedStateGuideTest -->
- 
-**Table of contents**
-
-<!--- TOC -->
-
-* [Shared mutable state and concurrency](#shared-mutable-state-and-concurrency)
-  * [The problem](#the-problem)
-  * [Volatiles are of no help](#volatiles-are-of-no-help)
-  * [Thread-safe data structures](#thread-safe-data-structures)
-  * [Thread confinement fine-grained](#thread-confinement-fine-grained)
-  * [Thread confinement coarse-grained](#thread-confinement-coarse-grained)
-  * [Mutual exclusion](#mutual-exclusion)
-  * [Actors](#actors)
-
-<!--- END -->
-
-## Shared mutable state and concurrency
+# Shared mutable state and concurrency
 
 Coroutines can be executed concurrently using a multi-threaded dispatcher like the [Dispatchers.Default]. It presents
 all the usual concurrency problems. The main problem being synchronization of access to **shared mutable state**. 
@@ -522,18 +505,3 @@ have to switch to a different context at all.
 > Note that an [actor] coroutine builder is a dual of [produce] coroutine builder. An actor is associated 
   with the channel that it receives messages from, while a producer is associated with the channel that it 
   sends elements to.
-
-<!--- MODULE kotlinx-coroutines-core -->
-<!--- INDEX kotlinx.coroutines -->
-[Dispatchers.Default]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-dispatchers/-default.html
-[withContext]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-context.html
-[CompletableDeferred]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-completable-deferred/index.html
-<!--- INDEX kotlinx.coroutines.sync -->
-[Mutex]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.sync/-mutex/index.html
-[Mutex.lock]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.sync/-mutex/lock.html
-[Mutex.unlock]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.sync/-mutex/unlock.html
-[withLock]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.sync/with-lock.html
-<!--- INDEX kotlinx.coroutines.channels -->
-[actor]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/actor.html
-[produce]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/produce.html
-<!--- END -->

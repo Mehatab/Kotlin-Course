@@ -1,19 +1,4 @@
-<!--- TEST_NAME ComposingGuideTest -->
-
-**Table of contents**
-
-<!--- TOC -->
-
-* [Composing Suspending Functions](#composing-suspending-functions)
-  * [Sequential by default](#sequential-by-default)
-  * [Concurrent using async](#concurrent-using-async)
-  * [Lazily started async](#lazily-started-async)
-  * [Async-style functions](#async-style-functions)
-  * [Structured concurrency with async](#structured-concurrency-with-async)
-
-<!--- END -->
-
-## Composing Suspending Functions
+# Composing Suspending Functions
 
 This section covers various approaches to composition of suspending functions.
 
@@ -417,19 +402,3 @@ Second child throws an exception
 First child was cancelled
 Computation failed with ArithmeticException
 ```
-
-<!--- TEST -->
-
-<!--- MODULE kotlinx-coroutines-core -->
-<!--- INDEX kotlinx.coroutines -->
-[async]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/async.html
-[launch]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/launch.html
-[Job]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/index.html
-[Deferred]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-deferred/index.html
-[CoroutineStart.LAZY]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-start/-l-a-z-y.html
-[Deferred.await]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-deferred/await.html
-[Job.start]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/start.html
-[GlobalScope]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-global-scope/index.html
-[CoroutineScope]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope/index.html
-[coroutineScope]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html
-<!--- END -->

@@ -1,20 +1,4 @@
-<!--- TEST_NAME CancellationGuideTest -->
-
-**Table of contents**
-
-<!--- TOC -->
-
-* [Cancellation and Timeouts](#cancellation-and-timeouts)
-  * [Cancelling coroutine execution](#cancelling-coroutine-execution)
-  * [Cancellation is cooperative](#cancellation-is-cooperative)
-  * [Making computation code cancellable](#making-computation-code-cancellable)
-  * [Closing resources with `finally`](#closing-resources-with-finally)
-  * [Run non-cancellable block](#run-non-cancellable-block)
-  * [Timeout](#timeout)
-
-<!--- END -->
-
-## Cancellation and Timeouts
+# Cancellation and Timeouts
 
 This section covers coroutine cancellation and timeouts.
 
@@ -352,22 +336,3 @@ I'm sleeping 1 ...
 I'm sleeping 2 ...
 Result is null
 ```
-
-<!--- TEST -->
-
-<!--- MODULE kotlinx-coroutines-core -->
-<!--- INDEX kotlinx.coroutines -->
-[launch]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/launch.html
-[Job]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/index.html
-[cancelAndJoin]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/cancel-and-join.html
-[Job.cancel]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/cancel.html
-[Job.join]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/join.html
-[CancellationException]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-cancellation-exception/index.html
-[yield]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/yield.html
-[isActive]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/is-active.html
-[CoroutineScope]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope/index.html
-[withContext]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-context.html
-[NonCancellable]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-non-cancellable.html
-[withTimeout]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-timeout.html
-[withTimeoutOrNull]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/with-timeout-or-null.html
-<!--- END -->

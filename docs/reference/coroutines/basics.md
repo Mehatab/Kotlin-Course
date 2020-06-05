@@ -1,22 +1,4 @@
-<!--- TEST_NAME BasicsGuideTest -->
-
-**Table of contents**
-
-<!--- TOC -->
-
-* [Coroutine Basics](#coroutine-basics)
-  * [Your first coroutine](#your-first-coroutine)
-  * [Bridging blocking and non-blocking worlds](#bridging-blocking-and-non-blocking-worlds)
-  * [Waiting for a job](#waiting-for-a-job)
-  * [Structured concurrency](#structured-concurrency)
-  * [Scope builder](#scope-builder)
-  * [Extract function refactoring](#extract-function-refactoring)
-  * [Coroutines ARE light-weight](#coroutines-are-light-weight)
-  * [Global coroutines are like daemon threads](#global-coroutines-are-like-daemon-threads)
-
-<!--- END -->
-
-## Coroutine Basics
+# Coroutine Basics
 
 This section covers basic coroutine concepts.
 
@@ -392,18 +374,4 @@ I'm sleeping 2 ...
 <!--- TEST -->
 
 Active coroutines that were launched in [GlobalScope] do not keep the process alive. They are like daemon threads.
-
-<!--- MODULE kotlinx-coroutines-core -->
-<!--- INDEX kotlinx.coroutines -->
-[launch]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/launch.html
-[CoroutineScope]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope/index.html
-[GlobalScope]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-global-scope/index.html
-[delay]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/delay.html
-[runBlocking]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/run-blocking.html
-[Job]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/index.html
-[Job.join]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-job/join.html
-[coroutineScope]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/coroutine-scope.html
-[CoroutineScope()]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-coroutine-scope.html
-<!--- END -->
-
 

@@ -1,19 +1,4 @@
-<!--- TEST_NAME SelectGuideTest --> 
-
-**Table of contents**
-
-<!--- TOC -->
-
-* [Select Expression (experimental)](#select-expression-experimental)
-  * [Selecting from channels](#selecting-from-channels)
-  * [Selecting on close](#selecting-on-close)
-  * [Selecting to send](#selecting-to-send)
-  * [Selecting deferred values](#selecting-deferred-values)
-  * [Switch over a channel of deferred values](#switch-over-a-channel-of-deferred-values)
-
-<!--- END -->
-
-## Select Expression (experimental)
+# Select Expression (experimental)
 
 Select expression makes it possible to await multiple suspending functions simultaneously and _select_
 the first one that becomes available.
@@ -532,18 +517,3 @@ Replace
 END
 Channel was closed
 ```
-
-<!--- TEST -->
-
-<!--- MODULE kotlinx-coroutines-core -->
-<!--- INDEX kotlinx.coroutines -->
-[Deferred.onAwait]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines/-deferred/on-await.html
-<!--- INDEX kotlinx.coroutines.channels -->
-[ReceiveChannel.receive]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/-receive-channel/receive.html
-[ReceiveChannel.onReceive]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/-receive-channel/on-receive.html
-[onReceiveOrNull]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/on-receive-or-null.html
-[SendChannel.send]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/-send-channel/send.html
-[SendChannel.onSend]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.channels/-send-channel/on-send.html
-<!--- INDEX kotlinx.coroutines.selects -->
-[select]: https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.selects/select.html
-<!--- END -->
