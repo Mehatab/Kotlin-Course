@@ -22,7 +22,7 @@ Additional attributes of the annotation can be specified by annotating the annot
     annotation is part of the public API and should be included in the class or method signature shown in the
     generated API documentation.
 
-<div style="white-space:pre !important; overflow-x:auto" class="sample" markdown="1" theme="idea" data-highlight-only>
+<div class="sample" markdown="1" theme="idea" data-highlight-only>
 
 ```kotlin
 @Target(AnnotationTarget.CLASS, AnnotationTarget.FUNCTION, AnnotationTarget.VALUE_PARAMETER, AnnotationTarget.EXPRESSION)
@@ -48,7 +48,7 @@ annotation class Fancy
 If you need to annotate the primary constructor of a class, you need to add the *constructor*{: .keyword} keyword
 to the constructor declaration, and add the annotations before it:
 
-<div style="white-space:pre !important; overflow-x:auto" class="sample" markdown="1" theme="idea" data-highlight-only>
+<div class="sample" markdown="1" theme="idea" data-highlight-only>
 
 ```kotlin
 class Foo @Inject constructor(dependency: MyDependency) { ... }
