@@ -22,7 +22,7 @@ Additional attributes of the annotation can be specified by annotating the annot
     annotation is part of the public API and should be included in the class or method signature shown in the
     generated API documentation.
 
-<div class="sample" markdown="1" theme="idea" data-highlight-only>
+<div style="white-space:pre !important; overflow-x:auto" class="sample" markdown="1" theme="idea" data-highlight-only>
 
 ```kotlin
 @Target(AnnotationTarget.CLASS, AnnotationTarget.FUNCTION,
