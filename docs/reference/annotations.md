@@ -25,8 +25,7 @@ Additional attributes of the annotation can be specified by annotating the annot
 <div style="white-space:pre !important; overflow-x:auto" class="sample" markdown="1" theme="idea" data-highlight-only>
 
 ```kotlin
-@Target(AnnotationTarget.CLASS, AnnotationTarget.FUNCTION,
-        AnnotationTarget.VALUE_PARAMETER, AnnotationTarget.EXPRESSION)
+@Target(AnnotationTarget.CLASS, AnnotationTarget.FUNCTION, AnnotationTarget.VALUE_PARAMETER, AnnotationTarget.EXPRESSION)
 @Retention(AnnotationRetention.SOURCE)
 @MustBeDocumented
 annotation class Fancy
