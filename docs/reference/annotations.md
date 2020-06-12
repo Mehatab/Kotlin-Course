@@ -49,7 +49,7 @@ annotation class Fancy
 If you need to annotate the primary constructor of a class, you need to add the *constructor*{: .keyword} keyword
 to the constructor declaration, and add the annotations before it:
 
-<div class="sample" markdown="1" theme="idea" data-highlight-only>
+<div style="white-space:pre !important; overflow-x:auto" class="sample" markdown="1" theme="idea" data-highlight-only>
 
 ```kotlin
 class Foo @Inject constructor(dependency: MyDependency) { ... }
